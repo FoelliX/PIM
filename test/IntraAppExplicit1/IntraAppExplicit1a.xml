@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <intentsources>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkBroadcastReceiver</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10285/InterComponentExplicit1.apk</file>
+                        <hashes>
+                            <hash type="MD5">c21b95e57e61953657566e456d92116c</hash>
+                            <hash type="SHA-1">67f210b28e25a4107c533b0bc68cb16ab75488d4</hash>
+                            <hash type="SHA-256">43d64f2120965fa393926a9ea0c4d04b7664d4c37fd70231dc48b4366cece253</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkBroadcastReceiver: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkBroadcastReceiver</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10285/InterComponentExplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">c21b95e57e61953657566e456d92116c</hash>
+                        <hash type="SHA-1">67f210b28e25a4107c533b0bc68cb16ab75488d4</hash>
+                        <hash type="SHA-256">43d64f2120965fa393926a9ea0c4d04b7664d4c37fd70231dc48b4366cece253</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkBroadcastReceiver: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkBroadcastReceiver</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10285/InterComponentExplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">c21b95e57e61953657566e456d92116c</hash>
+                        <hash type="SHA-1">67f210b28e25a4107c533b0bc68cb16ab75488d4</hash>
+                        <hash type="SHA-256">43d64f2120965fa393926a9ea0c4d04b7664d4c37fd70231dc48b4366cece253</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkActivity</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10285/InterComponentExplicit1.apk</file>
+                        <hashes>
+                            <hash type="MD5">c21b95e57e61953657566e456d92116c</hash>
+                            <hash type="SHA-1">67f210b28e25a4107c533b0bc68cb16ab75488d4</hash>
+                            <hash type="SHA-256">43d64f2120965fa393926a9ea0c4d04b7664d4c37fd70231dc48b4366cece253</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10285/InterComponentExplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">c21b95e57e61953657566e456d92116c</hash>
+                        <hash type="SHA-1">67f210b28e25a4107c533b0bc68cb16ab75488d4</hash>
+                        <hash type="SHA-256">43d64f2120965fa393926a9ea0c4d04b7664d4c37fd70231dc48b4366cece253</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkService</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10285/InterComponentExplicit1.apk</file>
+                        <hashes>
+                            <hash type="MD5">c21b95e57e61953657566e456d92116c</hash>
+                            <hash type="SHA-1">67f210b28e25a4107c533b0bc68cb16ab75488d4</hash>
+                            <hash type="SHA-256">43d64f2120965fa393926a9ea0c4d04b7664d4c37fd70231dc48b4366cece253</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkService: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkService</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10285/InterComponentExplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">c21b95e57e61953657566e456d92116c</hash>
+                        <hash type="SHA-1">67f210b28e25a4107c533b0bc68cb16ab75488d4</hash>
+                        <hash type="SHA-256">43d64f2120965fa393926a9ea0c4d04b7664d4c37fd70231dc48b4366cece253</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+                <category>android.intent.category.DEFAULT</category>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkService: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentexplicit1.SinkService</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10285/InterComponentExplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">c21b95e57e61953657566e456d92116c</hash>
+                        <hash type="SHA-1">67f210b28e25a4107c533b0bc68cb16ab75488d4</hash>
+                        <hash type="SHA-256">43d64f2120965fa393926a9ea0c4d04b7664d4c37fd70231dc48b4366cece253</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+    </intentsources>
+</answer>

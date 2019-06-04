@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <intentsinks>
+        <intentsink>
+            <target>
+                <action>com.example.deviceid_broadcast.broadcast_deviceid</action>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;com.example.deviceid_broadcast.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r2)</statementfull>
+                    <statementgeneric>com.example.deviceid_broadcast.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.deviceid_broadcast.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.deviceid_broadcast.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10007/DeviceId_Broadcast1.apk</file>
+                    <hashes>
+                        <hash type="MD5">386962b96d302ef2320752da4965611e</hash>
+                        <hash type="SHA-1">b7f083f2b8b40df3cdcb95b6621f32483f03bcf0</hash>
+                        <hash type="SHA-256">315a4fefb581b21c66427a350b2384846ef3f4612fa50b83723ee62b222cc880</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <action>com.example.collector</action>
+                <data>
+                    <type>text/plain</type>
+                </data>
+                <data>
+                    <type>text/plain</type>
+                </data>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r1.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>android.content.Context: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.deviceid_broadcast.broadcast_deviceid: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.deviceid_broadcast.broadcast_deviceid</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10007/DeviceId_Broadcast1.apk</file>
+                    <hashes>
+                        <hash type="MD5">386962b96d302ef2320752da4965611e</hash>
+                        <hash type="SHA-1">b7f083f2b8b40df3cdcb95b6621f32483f03bcf0</hash>
+                        <hash type="SHA-256">315a4fefb581b21c66427a350b2384846ef3f4612fa50b83723ee62b222cc880</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+    </intentsinks>
+</answer>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <flows>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r1.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;($r2)</statementfull>
+                    <statementgeneric>android.content.Context: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.deviceid_broadcast.broadcast_deviceid: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.deviceid_broadcast.broadcast_deviceid</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/DeviceId_Broadcast1.apk</file>
+                    <hashes>
+                        <hash type="MD5">386962b96d302ef2320752da4965611e</hash>
+                        <hash type="SHA-1">b7f083f2b8b40df3cdcb95b6621f32483f03bcf0</hash>
+                        <hash type="SHA-256">315a4fefb581b21c66427a350b2384846ef3f4612fa50b83723ee62b222cc880</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 := @parameter0: android.content.Context</statementfull>
+                    <statementgeneric>$r1 := @parameter0: android.content.Context</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter0: android.content.Context</type>
+                            <value>$r1 := @parameter0: android.content.Context</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.deviceid_broadcast.broadcast_deviceid: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.deviceid_broadcast.broadcast_deviceid</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/DeviceId_Broadcast1.apk</file>
+                    <hashes>
+                        <hash type="MD5">386962b96d302ef2320752da4965611e</hash>
+                        <hash type="SHA-1">b7f083f2b8b40df3cdcb95b6621f32483f03bcf0</hash>
+                        <hash type="SHA-256">315a4fefb581b21c66427a350b2384846ef3f4612fa50b83723ee62b222cc880</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r1.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;($r2)</statementfull>
+                    <statementgeneric>android.content.Context: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.deviceid_broadcast.broadcast_deviceid: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.deviceid_broadcast.broadcast_deviceid</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/DeviceId_Broadcast1.apk</file>
+                    <hashes>
+                        <hash type="MD5">386962b96d302ef2320752da4965611e</hash>
+                        <hash type="SHA-1">b7f083f2b8b40df3cdcb95b6621f32483f03bcf0</hash>
+                        <hash type="SHA-256">315a4fefb581b21c66427a350b2384846ef3f4612fa50b83723ee62b222cc880</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r6 = virtualinvoke $r5.&lt;android.telephony.TelephonyManager: java.lang.String getDeviceId()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getDeviceId()</statementgeneric>
+                </statement>
+                <method>&lt;com.example.deviceid_broadcast.broadcast_deviceid: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.deviceid_broadcast.broadcast_deviceid</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/DeviceId_Broadcast1.apk</file>
+                    <hashes>
+                        <hash type="MD5">386962b96d302ef2320752da4965611e</hash>
+                        <hash type="SHA-1">b7f083f2b8b40df3cdcb95b6621f32483f03bcf0</hash>
+                        <hash type="SHA-256">315a4fefb581b21c66427a350b2384846ef3f4612fa50b83723ee62b222cc880</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+    </flows>
+</answer>

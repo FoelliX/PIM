@@ -1,0 +1,2703 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <intentsources>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                        <hashes>
+                            <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                            <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                            <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+                <category>android.intent.category.DEFAULT</category>
+            </target>
+            <reference type="to">
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                        <hashes>
+                            <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                            <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                            <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r2 := @parameter1: android.content.Intent</statementfull>
+                    <statementgeneric>$r2 := @parameter1: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r2 := @parameter1: android.content.Intent</type>
+                            <value>$r2 := @parameter1: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver</classname>
+                <app>
+                    <file>D:\temp\DroidBenchExtended\benchmark\apks\FeatureChecking\InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                        <hashes>
+                            <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                            <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                            <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>D:\temp\DroidBenchExtended\benchmark\apks\FeatureChecking\InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>android.intent.action.MAIN</action>
+                <category>android.intent.category.LAUNCHER</category>
+            </target>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>D:\temp\DroidBenchExtended\benchmark\apks\FeatureChecking\InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                        <hashes>
+                            <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                            <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                            <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>D:\temp\DroidBenchExtended\benchmark\apks\FeatureChecking\InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+                <category>android.intent.category.DEFAULT</category>
+            </target>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>D:\temp\DroidBenchExtended\benchmark\apks\FeatureChecking\InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+    </intentsources>
+    <intentsinks>
+        <intentsink>
+            <target>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+            </target>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+            </target>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+    </intentsinks>
+    <flows>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 5", $r1)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 5"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(java.lang.String)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = interfaceinvoke $r11.&lt;android.database.Cursor: java.lang.String getString(int)&gt;(0)</statementfull>
+                    <statementgeneric>android.database.Cursor: java.lang.String getString(int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>0</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 1", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 1"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;($r2, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)&gt;(1, $r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r2 := @parameter1: android.content.Intent</statementfull>
+                    <statementgeneric>$r2 := @parameter1: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r2 := @parameter1: android.content.Intent</type>
+                            <value>$r2 := @parameter1: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r1.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkContentProvider: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkContentProvider</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r2 := @parameter1: android.content.ContentValues</statementfull>
+                    <statementgeneric>$r2 := @parameter1: android.content.ContentValues</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r2 := @parameter1: android.content.ContentValues</type>
+                            <value>$r2 := @parameter1: android.content.ContentValues</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkContentProvider</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 2", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 2"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 4", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 4"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkContentProvider: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkContentProvider</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r2 := @parameter1: android.content.ContentValues</statementfull>
+                    <statementgeneric>$r2 := @parameter1: android.content.ContentValues</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r2 := @parameter1: android.content.ContentValues</type>
+                            <value>$r2 := @parameter1: android.content.ContentValues</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkContentProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkContentProvider</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 3", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 3"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r2 := @parameter1: android.content.Intent</statementfull>
+                    <statementgeneric>$r2 := @parameter1: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r2 := @parameter1: android.content.Intent</type>
+                            <value>$r2 := @parameter1: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkBroadcastReceiver</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r8.&lt;android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)&gt;($r9, $r1)</statementfull>
+                    <statementgeneric>android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.net.Uri</type>
+                            <value>$r9</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.content.ContentValues</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r2.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r1, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r1</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(java.lang.String)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = interfaceinvoke $r11.&lt;android.database.Cursor: java.lang.String getString(int)&gt;(0)</statementfull>
+                    <statementgeneric>android.database.Cursor: java.lang.String getString(int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>0</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r11 = virtualinvoke $r8.&lt;android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)&gt;($r9, $r10, null, null, null)</statementfull>
+                    <statementgeneric>android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.net.Uri</type>
+                            <value>$r9</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String[]</type>
+                            <value>$r10</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String[]</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10354/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10354/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;($r2)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10354/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10354/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>D:\temp\DroidBenchExtended\benchmark\apks\FeatureChecking\InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>D:\temp\DroidBenchExtended\benchmark\apks\FeatureChecking\InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)&gt;(1, $r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>D:\temp\DroidBenchExtended\benchmark\apks\FeatureChecking\InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 1", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 1"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)&gt;(1, $r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 1", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 1"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)&gt;(1, $r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)&gt;(1, $r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)&gt;(1, $r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 2", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 2"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 1", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 1"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)&gt;(1, $r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void setResult(int,android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.SinkActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 2", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 2"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>$r1 := @parameter2: android.content.Intent</statementfull>
+                    <statementgeneric>$r1 := @parameter2: android.content.Intent</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>$r1 := @parameter2: android.content.Intent</type>
+                            <value>$r1 := @parameter2: android.content.Intent</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)&gt;(r4, 1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void startActivityForResult(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 2", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 2"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 2", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 2"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 2", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 2"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r5 = virtualinvoke $r4.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void source()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK 2", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK 2"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity: void sink(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.intercomponentimplicit1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10302/InterComponentImplicit1.apk</file>
+                    <hashes>
+                        <hash type="MD5">fdd8225d420ffc1c6c48edd5b5886e0a</hash>
+                        <hash type="SHA-1">dca97ce44499c363eb22a78619454eaf00338cfd</hash>
+                        <hash type="SHA-256">610a83e67418ac9c0e3e673cfae096db19f9854cdf859ec2217306dfcb312cf</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+    </flows>
+</answer>

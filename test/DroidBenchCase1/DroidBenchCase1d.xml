@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <flows>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r4.&lt;java.io.OutputStreamWriter: java.io.Writer append(java.lang.CharSequence)&gt;($r9)</statementfull>
+                    <statementgeneric>java.io.OutputStreamWriter: java.io.Writer append(java.lang.CharSequence)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.CharSequence</type>
+                            <value>$r9</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10008/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r8 = virtualinvoke $r0.&lt;com.example.collector.MainActivity: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>com.example.collector.MainActivity: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10008/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+    </flows>
+</answer>

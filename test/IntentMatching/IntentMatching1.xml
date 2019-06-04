@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <intentsources>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                        <hashes>
+                            <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                            <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                            <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <category>android.intent.category.DEFAULT</category>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                        <hashes>
+                            <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                            <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                            <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+                <category>android.intent.category.DEFAULT</category>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                        <hashes>
+                            <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                            <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                            <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>de.foellix.aql.aqlbench.NOLEAK</action>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+                <category>android.intent.category.DEFAULT</category>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r3 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("secret")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"secret"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+    </intentsources>
+    <intentsinks>
+        <intentsink>
+            <target>
+                <action>de.foellix.aql.aqlbench.LEAK</action>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void startActivity(android.content.Intent)&gt;(r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void outputReachabilityAndStart(android.content.Intent,int)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target/>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void startActivity(android.content.Intent)&gt;(r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void outputReachabilityAndStart(android.content.Intent,int)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10004/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+    </intentsinks>
+    <flows>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity2</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r1.&lt;android.content.Intent: android.content.Intent setAction(java.lang.String)&gt;("de.foellix.aql.aqlbench.LEAK")</statementfull>
+                    <statementgeneric>android.content.Intent: android.content.Intent setAction(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"de.foellix.aql.aqlbench.LEAK"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void source2()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r4 = virtualinvoke $r3.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void source2()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity3</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r3.&lt;android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)&gt;("123456789", null, $r2, null, null)</statementfull>
+                    <statementgeneric>android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"123456789"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                        <parameter>
+                            <type>android.app.PendingIntent</type>
+                            <value>null</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int wtf(java.lang.String,java.lang.String)&gt;("LEAK", $r2)</statementfull>
+                    <statementgeneric>android.util.Log: int wtf(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"LEAK"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r1 = virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: android.content.Intent getIntent()&gt;()</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: android.content.Intent getIntent()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1: void sink()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.SinkActivity1</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("INFO", $r9)</statementfull>
+                    <statementgeneric>android.util.Log: int i(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"INFO"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r9</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void outputReachabilityAndStart(android.content.Intent,int)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r3 = virtualinvoke $r2.&lt;android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)&gt;($r1, 0)</statementfull>
+                    <statementgeneric>android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>0</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void outputReachabilityAndStart(android.content.Intent,int)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void startActivity(android.content.Intent)&gt;($r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void outputReachabilityAndStart(android.content.Intent,int)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r4 = virtualinvoke $r3.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void source1()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r0.&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void startActivity(android.content.Intent)&gt;($r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void outputReachabilityAndStart(android.content.Intent,int)&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r4 = virtualinvoke $r3.&lt;android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()&gt;()</statementfull>
+                    <statementgeneric>android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()</statementgeneric>
+                </statement>
+                <method>&lt;de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity: void source2()&gt;</method>
+                <classname>de.foellix.aql.aqlbench.api19.implicitintentmatching1.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10005/ImplicitIntentMatching1.apk</file>
+                    <hashes>
+                        <hash type="MD5">7bfee3da7dd2d5ef4834c9e6809d05de</hash>
+                        <hash type="SHA-1">a6df4df1ab6c4870c4a1a1f8237cedce2838a10a</hash>
+                        <hash type="SHA-256">f584c674fbb18f89f20a68de04b44e8be0761d8137fdba2c01eeeee47b798f7f</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+    </flows>
+</answer>

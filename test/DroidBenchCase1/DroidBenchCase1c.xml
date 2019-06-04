@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <intentsources>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.example.collector.MainActivity</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                        <hashes>
+                            <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                            <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                            <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r59 = virtualinvoke r57.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(r58)</statementfull>
+                    <statementgeneric>android.os.Bundle: java.lang.Object get(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r58</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>com.example.collector</action>
+                <category>android.intent.category.DEFAULT</category>
+                <data>
+                    <type>image/*</type>
+                </data>
+                <data>
+                    <type>text/*</type>
+                </data>
+                <data>
+                    <type>file/*</type>
+                </data>
+                <data>
+                    <type>email/*</type>
+                </data>
+                <data>
+                    <type>email/*</type>
+                </data>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r59 = virtualinvoke r57.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(r58)</statementfull>
+                    <statementgeneric>android.os.Bundle: java.lang.Object get(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r58</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>android.intent.action.MAIN</action>
+                <category>android.intent.category.LAUNCHER</category>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r59 = virtualinvoke r57.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(r58)</statementfull>
+                    <statementgeneric>android.os.Bundle: java.lang.Object get(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r58</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.example.collector.MainActivity</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                        <hashes>
+                            <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                            <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                            <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r52 = virtualinvoke r9.&lt;android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)&gt;(r51)</statementfull>
+                    <statementgeneric>android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r51</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>com.example.collector</action>
+                <category>android.intent.category.DEFAULT</category>
+                <data>
+                    <type>image/*</type>
+                </data>
+                <data>
+                    <type>text/*</type>
+                </data>
+                <data>
+                    <type>file/*</type>
+                </data>
+                <data>
+                    <type>email/*</type>
+                </data>
+                <data>
+                    <type>email/*</type>
+                </data>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r52 = virtualinvoke r9.&lt;android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)&gt;(r51)</statementfull>
+                    <statementgeneric>android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r51</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>android.intent.action.MAIN</action>
+                <category>android.intent.category.LAUNCHER</category>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r52 = virtualinvoke r9.&lt;android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)&gt;(r51)</statementfull>
+                    <statementgeneric>android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r51</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.example.collector.MainActivity</classname>
+                    <app>
+                        <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                        <hashes>
+                            <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                            <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                            <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r10 = virtualinvoke r9.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r32)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r32</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>com.example.collector</action>
+                <category>android.intent.category.DEFAULT</category>
+                <data>
+                    <type>image/*</type>
+                </data>
+                <data>
+                    <type>text/*</type>
+                </data>
+                <data>
+                    <type>file/*</type>
+                </data>
+                <data>
+                    <type>email/*</type>
+                </data>
+                <data>
+                    <type>email/*</type>
+                </data>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r10 = virtualinvoke r9.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r32)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r32</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>android.intent.action.MAIN</action>
+                <category>android.intent.category.LAUNCHER</category>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r10 = virtualinvoke r9.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r32)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r32</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.collector.MainActivity: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.example.collector.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webservice/aql/uploads/10006/Collector.apk</file>
+                    <hashes>
+                        <hash type="MD5">f6bc630a165a322db0c919896fbcd1e1</hash>
+                        <hash type="SHA-1">8d9b773e300472f440ab7902d953b587a36e6e03</hash>
+                        <hash type="SHA-256">8b12debd1f8e37823f0720ed91547f7532eaeca207840cb1568c2ee3e96d3823</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+    </intentsources>
+</answer>
