@@ -54,7 +54,7 @@ IC3 can be used to get information about IntentSinks and IntentSources.
 PIM is able to accurately connect these to inter-component flows.
 To fully use this feature, PIM's underlying [AQL-System](https://FoelliX.github.io/AQL-System) should be setup (Tutorial: [Configuration](https://github.com/FoelliX/AQL-System/wiki/Configuration)).
 It should be setup to use a taint analysis tool such as [FlowDroid](https://github.com/secure-software-engineering/FlowDroid).
-This tool should be ran with the sources and sinks in the following file [SourcesAndSinks_intent.txt](https://github.com/FoelliX/AQL-System/blob/master/SourcesAndSinks_intent.txt).
+This tool should be ran with the sources and sinks in the following file [SourcesAndSinks_intent.txt](https://github.com/FoelliX/PIM/blob/master/SourcesAndSinks_intent.txt).
 This is required to find additional IntentSources that share the same action-category-data triples as those found by IC3.
 The AQL-System's configuration should look similar to the following one and be stored in PIM's root directory under the name ``windows.xml`` or ``linux.xml`` (depending on your operating system):
 ```xml
