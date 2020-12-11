@@ -49,6 +49,32 @@ The following launch parameters can be provided while running PIM:
 | `stop` | Stops the selected emulator or device. |
 | `ask %ANSWER% [, %ANSWER%]*` | All provided AQL-Answers (%ANSWER%) will be matched by PIM. At least one answer must be specified. (If the PIM-Server is not started, it will be started and stopped once the execution finishes.) |
 
+### PIM together with IC3
+IC3 can be used to get information about IntentSinks and IntentSources.
+PIM is able to accurately connect these to inter-component flows.
+To fully use this feature, PIM's underlying [AQL-System](https://FoelliX.github.io/AQL-System) should be setup (Tutorial: [Configuration](https://github.com/FoelliX/AQL-System/wiki/Configuration)).
+It should be setup to use a taint analysis tool such as [FlowDroid](https://github.com/secure-software-engineering/FlowDroid).
+This tool should be ran with the sources and sinks in the following file [SourcesAndSinks_intent.txt](https://github.com/FoelliX/AQL-System/blob/master/SourcesAndSinks_intent.txt).
+This is required to find additional IntentSources that share the same action-category-data triples as those found by IC3.
+The AQL-System's configuration should look similar to the following one and be stored in PIM's root directory under the name ``windows.xml`` or ``linux.xml`` (depending on your operating system):
+```xml
+<config>
+	<tools>
+		<tool name="FlowDroid" version="X" external="false">
+			<priority>1</priority>
+			<execute>
+				<run>/path/to/FlowDroid/script.sh/.bat that uses SourcesAndSinks_intent.txt</run>
+				<result>/path/to/FlowDroid/results/%APP_APK_FILENAME%_result.txt</result>
+				<instances>0</instances>
+				<memoryPerInstance>8</memoryPerInstance>
+			</execute>
+			<path>/path/to/FlowDroid</path>
+			<questions>IntraAppFlows</questions>
+		</tool>
+	</tools>
+</config>
+```
+
 ## Publications
 - *Together Strong: Cooperative Android App Analysis* (Felix Pauck, Heike Wehrheim)  
 ESEC/FSE 2019 [https://dl.acm.org/citation.cfm?id=3338915](https://dl.acm.org/citation.cfm?id=3338915)
