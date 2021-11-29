@@ -17,6 +17,7 @@ public class Config {
 	private static final String DEVICE_NAME = "deviceName";
 	private static final String REBOOT_ALLOWED = "rebootAllowed";
 	private static final String APP_RELOCATION_PATH = "appRelocationPath";
+	private static final String DEBUG = "debug";
 
 	public String deviceName;
 	public boolean rebootAllowed;
@@ -25,6 +26,7 @@ public class Config {
 	public String emuPath;
 	public String appRelocationPath;
 	public File toolFile;
+	public boolean debug;
 
 	private static Config instance = new Config();
 
@@ -47,9 +49,13 @@ public class Config {
 			this.adbPath = this.sdkPath + "/platform-tools/";
 			this.emuPath = this.sdkPath + "/emulator/";
 			this.toolFile = new File(this.sdkPath, "tools");
+			if (!this.toolFile.exists()) {
+				this.toolFile = new File(this.sdkPath, "emulator");
+			}
 			this.deviceName = prop.getProperty(DEVICE_NAME);
 			this.rebootAllowed = Boolean.valueOf(prop.getProperty(REBOOT_ALLOWED)).booleanValue();
 			this.appRelocationPath = prop.getProperty(APP_RELOCATION_PATH);
+			this.debug = Boolean.valueOf(prop.getProperty(DEBUG)).booleanValue();
 		} catch (final Exception e0) {
 			Log.msg("--- SETUP ---", Log.NORMAL);
 			final Scanner sc = new Scanner(System.in);
@@ -62,6 +68,9 @@ public class Config {
 			this.adbPath = this.sdkPath + "/platform-tools/";
 			this.emuPath = this.sdkPath + "/emulator/";
 			this.toolFile = new File(this.sdkPath, "tools");
+			if (!this.toolFile.exists()) {
+				this.toolFile = new File(this.sdkPath, "emulator");
+			}
 
 			final Map<Integer, String> map = new HashMap<>();
 			try {
@@ -88,10 +97,12 @@ public class Config {
 			sc.close();
 
 			this.rebootAllowed = false;
+			this.debug = false;
 			prop.setProperty(DEVICE_NAME, this.deviceName);
 			prop.setProperty(REBOOT_ALLOWED, Boolean.valueOf(this.rebootAllowed).toString());
 			prop.setProperty(SDK_PATH, this.sdkPath);
 			prop.setProperty(APP_RELOCATION_PATH, ".");
+			prop.setProperty(DEBUG, Boolean.valueOf(this.debug).toString());
 			try {
 				final FileOutputStream out = new FileOutputStream("config.properties");
 				prop.store(out, "PIM - Perfect Intent Matcher - Configuration file");

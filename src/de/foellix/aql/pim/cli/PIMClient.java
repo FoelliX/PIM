@@ -8,20 +8,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.fusesource.jansi.AnsiConsole;
-
 import de.foellix.aql.Log;
 import de.foellix.aql.Properties;
 import de.foellix.aql.datastructure.Answer;
 import de.foellix.aql.datastructure.handler.AnswerHandler;
-import de.foellix.aql.helper.HashHelper;
+import de.foellix.aql.helper.FileWithHash;
 import de.foellix.aql.helper.Helper;
 import de.foellix.aql.pim.EmulatorHandler;
 import de.foellix.aql.pim.PIM;
 
 public class PIMClient {
 	public static void main(String[] args) throws IOException {
-		AnsiConsole.systemInstall();
 		final String authorStr1 = "Author: " + Properties.info().AUTHOR;
 		final String authorStr2 = "(" + Properties.info().AUTHOR_EMAIL + ")";
 		final String centerspace0 = "           ".substring(Math.min(11, (Properties.info().VERSION.length() + 3) / 2));
@@ -41,7 +38,11 @@ public class PIMClient {
 		if (args[0].equals("ask")) {
 			final List<Answer> input = new ArrayList<>();
 			if (args.length >= 2) {
-				args = args[1].split(", ");
+				final StringBuilder sb = new StringBuilder();
+				for (int i = 1; i < args.length; i++) {
+					sb.append(args[i]);
+				}
+				args = sb.toString().replace(", ", ",").split(",");
 			}
 			for (final String fileStr : args) {
 				final File file = new File(fileStr.replaceAll(",", ""));
@@ -57,19 +58,18 @@ public class PIMClient {
 			// Build output
 			final Answer result = pim.buildOutput(input);
 
-			final List<File> files = new ArrayList<>();
+			final List<FileWithHash> files = new ArrayList<>();
 			for (final String arg : args) {
-				files.add(new File(arg));
+				files.add(new FileWithHash(arg));
 			}
-			final File storedAnswer = new File(
-					"result_" + HashHelper.sha256Hash(Helper.answerFilesAsString(files)) + ".xml");
+			final File storedAnswer = new File("result_" + Helper.getAnswerFilesAsHash(files) + ".xml");
 			AnswerHandler.createXML(result, storedAnswer);
 			Log.msg("--- STORING ---", Log.NORMAL);
 			Log.msg("Answer stored in: " + storedAnswer.getAbsolutePath(), Log.NORMAL);
 		} else if (args[0].equals("start")) {
 			EmulatorHandler.start();
 		} else if (args[0].equals("stop")) {
-			EmulatorHandler.stop();
+			EmulatorHandler.stop(true);
 		}
 	}
 }

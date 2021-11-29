@@ -1,0 +1,33 @@
+<android.app.Activity: android.content.Intent getIntent()> -> _SOURCE_
+
+<android.content.Intent: boolean[] getBooleanArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: boolean getBooleanExtra(java.lang.String, boolean)> -> _SINK_
+<android.content.Intent: android.os.Bundle getBundleExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: byte[] getByteArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: byte getByteExtra(java.lang.String, byte)> -> _SINK_
+<android.content.Intent: java.util.Set getCategories()> -> _SINK_
+<android.content.Intent: char[] getCharArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: char getCharExtra(java.lang.String, char)> -> _SINK_
+<android.content.Intent: java.lang.CharSequence[] getCharSequenceArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: java.util.ArrayList getCharSequenceArrayListExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: java.lang.CharSequence getCharSequenceExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: double[] getDoubleArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: double getDoubleExtra(java.lang.String, double)> -> _SINK_
+<android.content.Intent: android.os.Bundle getExtras()> -> _SINK_
+<android.content.Intent: int getFlags()> -> _SINK_
+<android.content.Intent: float[] getFloatArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: float getFloatExtra(java.lang.String, float)> -> _SINK_
+<android.content.Intent: int[] getIntArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: java.util.ArrayList getIntegerArrayListExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: int getIntExtra(java.lang.String, int)> -> _SINK_
+<android.content.Intent: long[] getLongArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: long getLongExtra(java.lang.String, long)> -> _SINK_
+<android.content.Intent: android.os.Parcelable[] getParcelableArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: java.util.ArrayList getParcelableArrayListExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: java.io.Serializable getSerializableExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: short[] getShortArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: short getShortExtra(java.lang.String, short)> -> _SINK_
+<android.content.Intent: java.lang.String[] getStringArrayExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: java.util.ArrayList getStringArrayListExtra(java.lang.String)> -> _SINK_
+<android.content.Intent: java.lang.String getStringExtra(java.lang.String)> -> _SINK_

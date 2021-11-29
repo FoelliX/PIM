@@ -9,12 +9,14 @@ import java.util.List;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import de.foellix.aql.Log;
 import de.foellix.aql.datastructure.Answer;
 import de.foellix.aql.datastructure.handler.AnswerHandler;
 
+@Tag("systemIsSetup")
 class AllTests {
 	@BeforeAll
 	public static void before() {
@@ -24,7 +26,7 @@ class AllTests {
 
 	@AfterAll
 	public static void after() {
-		EmulatorHandler.stop();
+		EmulatorHandler.stop(true);
 	}
 
 	@Test

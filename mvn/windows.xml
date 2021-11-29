@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+%APP_APK%: 		.apk file
+%APP_APK_FILENAME%	Filename of .apk file without path and .apk
+%APP_NAME%: 		App name
+%APP_PACKAGE%:		App package
+%ANDROID_PLATFORMS%:	Android platforms folder
+%MEMORY%:		Memory
+%PID%			Process ID
+%ANSWERS%:		Input AQL-Answers for operators
+%ANSWERSHASH%:		SHA-256-hash of %ANSWERS%-String
+-->
+
+<config>
+	<androidPlatforms>D:/Android/sdks/platforms/</androidPlatforms>
+	<maxMemory>8</maxMemory>
+	<tools>
+		<tool name="FlowDroid" version="1" external="false">
+			<priority>1</priority>
+			<execute>
+				<run>D:/SVN-student/masterarbeit/tools/FlowDroid/aqlRunSS.bat %MEMORY% %APP_APK% %ANDROID_PLATFORMS% %APP_APK_FILENAME%_result.txt SourcesAndSinks_intent.txt</run>
+				<result>D:/SVN-student/masterarbeit/tools/FlowDroid/%APP_APK_FILENAME%_result.txt</result>
+				<instances>0</instances>
+				<memoryPerInstance>8</memoryPerInstance>
+			</execute>
+			<path>D:/SVN-student/masterarbeit/tools/FlowDroid</path>
+			<questions>IntraAppFlows</questions>
+		</tool>
+	</tools>
+</config>

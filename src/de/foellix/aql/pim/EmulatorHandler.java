@@ -11,9 +11,9 @@ import de.foellix.aql.Log;
 import de.foellix.aql.datastructure.Answer;
 import de.foellix.aql.datastructure.Flow;
 import de.foellix.aql.datastructure.Flows;
-import de.foellix.aql.datastructure.KeywordsAndConstants;
 import de.foellix.aql.datastructure.Reference;
 import de.foellix.aql.helper.Helper;
+import de.foellix.aql.helper.KeywordsAndConstantsHelper;
 import de.foellix.aql.pim.config.Config;
 
 public class EmulatorHandler {
@@ -135,8 +135,8 @@ public class EmulatorHandler {
 		}
 	}
 
-	public static void stop() {
-		if (Config.getInstance().rebootAllowed) {
+	public static void stop(boolean stopExplicitly) {
+		if (Config.getInstance().rebootAllowed || stopExplicitly) {
 			try {
 				// Shut down emulator
 				Log.msg("Shutting down " + Config.getInstance().deviceName + "... ", Log.NORMAL);
@@ -151,14 +151,16 @@ public class EmulatorHandler {
 				Log.error("Error while using the emulator (" + e.getClass().getSimpleName() + "): " + e.getMessage());
 			}
 
-			try {
-				Thread.sleep(10000);
-				start(true);
-			} catch (final InterruptedException e1) {
-				Log.error("Problems while waiting for emulator to shutdown.");
+			if (!stopExplicitly) {
+				try {
+					Thread.sleep(10000);
+					start(true);
+				} catch (final InterruptedException e1) {
+					Log.error("Problems while waiting for emulator to shutdown.");
+				}
 			}
 		} else {
-			Log.msg("Setting up device (" + Config.getInstance().deviceName + ") again... ", Log.NORMAL);
+			Log.msg("Setting up " + Config.getInstance().deviceName + " again... ", Log.NORMAL);
 			try {
 				setup();
 			} catch (final Exception e) {
@@ -179,7 +181,7 @@ public class EmulatorHandler {
 		final Answer answer = ask(tasks);
 
 		if (stop) {
-			stop();
+			stop(false);
 		}
 
 		return answer;
@@ -226,9 +228,9 @@ public class EmulatorHandler {
 
 						final Flow flow = new Flow();
 						final Reference from = task.getIntentsinks().getIntentsink().get(0).getReference();
-						from.setType(KeywordsAndConstants.REFERENCE_TYPE_FROM);
+						from.setType(KeywordsAndConstantsHelper.REFERENCE_TYPE_FROM);
 						final Reference to = task.getIntentsources().getIntentsource().get(0).getReference();
-						to.setType(KeywordsAndConstants.REFERENCE_TYPE_TO);
+						to.setType(KeywordsAndConstantsHelper.REFERENCE_TYPE_TO);
 						flow.getReference().add(from);
 						flow.getReference().add(to);
 
@@ -250,7 +252,7 @@ public class EmulatorHandler {
 							+ e.getClass().getSimpleName() + ": " + e.getMessage() + ")");
 					restarts--;
 
-					stop();
+					stop(false);
 				} finally {
 					try {
 						if (socket != null) {

@@ -9,20 +9,21 @@ import java.util.Map;
 import java.util.Scanner;
 
 import de.foellix.aql.Log;
-import de.foellix.aql.config.ConfigHandler;
 import de.foellix.aql.datastructure.Answer;
 import de.foellix.aql.datastructure.Flow;
 import de.foellix.aql.datastructure.Flows;
 import de.foellix.aql.datastructure.Intentsink;
 import de.foellix.aql.datastructure.Intentsource;
-import de.foellix.aql.datastructure.KeywordsAndConstants;
 import de.foellix.aql.datastructure.Reference;
+import de.foellix.aql.helper.CLIHelper;
 import de.foellix.aql.helper.EqualsHelper;
 import de.foellix.aql.helper.FileRelocator;
 import de.foellix.aql.helper.Helper;
+import de.foellix.aql.helper.KeywordsAndConstantsHelper;
 import de.foellix.aql.pim.config.Config;
-import de.foellix.aql.system.DefaultOperator;
-import de.foellix.aql.system.System;
+import de.foellix.aql.system.AQLSystem;
+import de.foellix.aql.system.Options;
+import de.foellix.aql.system.defaulttools.operators.DefaultConnectOperator;
 
 public class AnswerEnhancer {
 	private static final String NEEDLE_SET_RESULT = "void setResult(int,android.content.Intent)";
@@ -30,7 +31,7 @@ public class AnswerEnhancer {
 
 	private final List<Answer> input;
 	private final Scanner sc;
-	private final System aqlSystem;
+	private final AQLSystem aqlSystem;
 	private List<File> relocationFolder;
 
 	public AnswerEnhancer(List<Answer> input) {
@@ -45,13 +46,13 @@ public class AnswerEnhancer {
 
 		this.sc = new Scanner(java.lang.System.in);
 		if (java.lang.System.getProperty("os.name").toLowerCase().contains("win")) {
-			ConfigHandler.getInstance().setConfig(new File("windows.xml"));
+			CLIHelper.evaluateConfig("windows.xml");
 		} else {
-			ConfigHandler.getInstance().setConfig(new File("linux.xml"));
+			CLIHelper.evaluateConfig("linux.xml");
 		}
 
-		this.aqlSystem = new System();
-		this.aqlSystem.getScheduler().setTimeout(5 * 60); // 5 Minutes
+		final Options options = new Options().setTimeout(CLIHelper.evaluateTimeout("5m")); // 5 Minutes
+		this.aqlSystem = new AQLSystem(options);
 	}
 
 	public void enhance() {
@@ -76,7 +77,7 @@ public class AnswerEnhancer {
 	private void addIntentSources() {
 		Log.msg("Adding new IntentSources...", Log.NORMAL);
 		String lastquery = null;
-		Answer fa = null;
+		Object fa = null;
 		int isc = 0;
 		final Map<Answer, List<Intentsource>> map = new HashMap<>();
 		for (final Answer ia : this.input) {
@@ -104,11 +105,13 @@ public class AnswerEnhancer {
 					}
 					// Compute connecting flows
 					final int logLevelBackup = Log.getLogLevel();
-					Log.setLogLevel(Log.IMPORTANT);
+					if (!Config.getInstance().debug) {
+						Log.setLogLevel(Log.IMPORTANT);
+					}
 					final String query = "Flows IN App('" + iFile.getAbsolutePath() + "') ?";
 					if (!query.equals(lastquery)) {
 						lastquery = query;
-						final Collection<Answer> collection = this.aqlSystem.queryAndWait(query);
+						final Collection<Object> collection = this.aqlSystem.queryAndWait(query);
 						if (collection != null && collection.iterator().hasNext()) {
 							fa = collection.iterator().next();
 						} else {
@@ -117,16 +120,19 @@ public class AnswerEnhancer {
 					}
 					Log.setLogLevel(logLevelBackup);
 
-					if (fa != null && fa.getFlows() != null && !fa.getFlows().getFlow().isEmpty()) {
-						for (final Flow ff : fa.getFlows().getFlow()) {
-							final Reference f = Helper.getFrom(ff.getReference());
-							if (EqualsHelper.equals(i.getReference().getApp(), f.getApp())
-									&& i.getReference().getClassname().equals(f.getClassname())) {
-								final Intentsource newIS = new Intentsource();
-								newIS.setTarget(i.getTarget());
-								newIS.setReference(f);
-								map.get(ia).add(newIS);
-								Log.msg(++isc + ")\n" + Helper.toString(newIS) + "\n", Log.DEBUG);
+					if (fa instanceof Answer) {
+						final Answer fac = (Answer) fa;
+						if (fac != null && fac.getFlows() != null && !fac.getFlows().getFlow().isEmpty()) {
+							for (final Flow ff : fac.getFlows().getFlow()) {
+								final Reference f = Helper.getFrom(ff.getReference());
+								if (EqualsHelper.equals(i.getReference().getApp(), f.getApp())
+										&& i.getReference().getClassname().equals(f.getClassname())) {
+									final Intentsource newIS = new Intentsource();
+									newIS.setTarget(i.getTarget());
+									newIS.setReference(f);
+									map.get(ia).add(newIS);
+									Log.msg(++isc + ")\n" + Helper.toString(newIS) + "\n", Log.DEBUG);
+								}
 							}
 						}
 					}
@@ -154,7 +160,7 @@ public class AnswerEnhancer {
 					Log.msg("Status: " + counter + " / " + answer.getFlows().getFlow().size(), Log.NORMAL);
 				}
 				for (Answer std : this.input) {
-					std = DefaultOperator.connect(std, std, KeywordsAndConstants.DEFAULT_CONNECT_INTRA_APP);
+					std = new DefaultConnectOperator(DefaultConnectOperator.CONNECT_MODE_INTRA_APP).connect(std, std);
 					if (std.getFlows() != null) {
 						for (final Flow fs : std.getFlows().getFlow()) {
 							final Reference fpTo = Helper.getTo(fp.getReference());
@@ -172,10 +178,10 @@ public class AnswerEnhancer {
 														&& fpFrom.getClassname().equals(pFrom.getClassname())) {
 													final Flow newF = new Flow();
 													final Reference from = Helper.copy(fsTo);
-													from.setType(KeywordsAndConstants.REFERENCE_TYPE_FROM);
+													from.setType(KeywordsAndConstantsHelper.REFERENCE_TYPE_FROM);
 													newF.getReference().add(from);
 													final Reference to = Helper.copy(pFrom);
-													to.setType(KeywordsAndConstants.REFERENCE_TYPE_TO);
+													to.setType(KeywordsAndConstantsHelper.REFERENCE_TYPE_TO);
 													newF.getReference().add(to);
 
 													boolean add = true;
@@ -225,10 +231,10 @@ public class AnswerEnhancer {
 					.equals(sink.getTarget().getReference().getClassname())) {
 				final Flow newF = new Flow();
 				final Reference from = Helper.copy(sink.getReference());
-				from.setType(KeywordsAndConstants.REFERENCE_TYPE_FROM);
+				from.setType(KeywordsAndConstantsHelper.REFERENCE_TYPE_FROM);
 				newF.getReference().add(from);
 				final Reference to = Helper.copy(source.getReference());
-				to.setType(KeywordsAndConstants.REFERENCE_TYPE_TO);
+				to.setType(KeywordsAndConstantsHelper.REFERENCE_TYPE_TO);
 				newF.getReference().add(to);
 				if (answer.getFlows() == null) {
 					answer.setFlows(new Flows());
@@ -245,7 +251,7 @@ public class AnswerEnhancer {
 		File returnFile = null;
 		while (returnFile == null || !returnFile.isDirectory()) {
 			Log.msg(file.getAbsolutePath() + " could not be found.\nPlease enter the path containing it: ", Log.NORMAL);
-			returnFile = new File(this.sc.nextLine().toString().replaceAll("\\\\", "/"));
+			returnFile = new File(this.sc.nextLine().toString().replace("\\", "/"));
 		}
 		return returnFile;
 	}

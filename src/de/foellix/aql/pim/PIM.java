@@ -4,8 +4,9 @@ import java.util.List;
 
 import de.foellix.aql.Log;
 import de.foellix.aql.datastructure.Answer;
-import de.foellix.aql.datastructure.KeywordsAndConstants;
-import de.foellix.aql.system.DefaultOperator;
+import de.foellix.aql.system.defaulttools.operators.DefaultConnectOperator;
+import de.foellix.aql.system.defaulttools.operators.DefaultFilterOperator;
+import de.foellix.aql.system.defaulttools.operators.DefaultUnifyOperator;
 
 public class PIM {
 	public Answer start(List<Answer> input) {
@@ -24,12 +25,13 @@ public class PIM {
 			counter++;
 			Log.msg("Status: " + counter + " / " + (input.size() - 1), Log.NORMAL);
 			if (input.get(i).getFlows() != null && !input.get(i).getFlows().getFlow().isEmpty()) {
-				result = DefaultOperator.connect(result, input.get(i), KeywordsAndConstants.DEFAULT_CONNECT_INTRA_APP);
+				result = new DefaultConnectOperator(DefaultConnectOperator.CONNECT_MODE_INTRA_APP).connect(result,
+						input.get(i));
 			} else {
-				result = DefaultOperator.unify(result, input.get(i));
+				result = new DefaultUnifyOperator().unify(result, input.get(i));
 			}
 		}
-		result = DefaultOperator.filter1(result);
+		result = new DefaultFilterOperator().filter(result);
 		Log.msg("done", Log.NORMAL);
 
 		return result;

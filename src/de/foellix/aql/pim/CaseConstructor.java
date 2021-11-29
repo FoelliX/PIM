@@ -46,12 +46,14 @@ public class CaseConstructor {
 				intentSinks.getIntentsink().add(sink);
 				answer.setIntentsinks(intentSinks);
 
-				if (source.getTarget().getReference() == null && sink.getTarget().getReference() == null) {
-					// Implicit case
-					this.implicitCases.add(answer);
-				} else if (source.getTarget().getReference() != null && sink.getTarget().getReference() != null) {
-					// Explicit case
-					this.explicitCases.add(answer);
+				if (source.getTarget() != null && sink.getTarget() != null) {
+					if (source.getTarget().getReference() == null && sink.getTarget().getReference() == null) {
+						// Implicit case
+						this.implicitCases.add(answer);
+					} else if (source.getTarget().getReference() != null && sink.getTarget().getReference() != null) {
+						// Explicit case
+						this.explicitCases.add(answer);
+					}
 				}
 			}
 		}
